@@ -7,6 +7,9 @@ describe('replacer', () => {
         const arr = ['sky', 'hot', 'Yeti', 'green'];
         const replacer = new Replacer(arr);
 
-        replacer.remove()
+        replacer.remove(arr, (err, newArr) => {
+            if(err) return done(err);
+            assert.deepEqual(arr, newArr);
+        });
     });
 });
