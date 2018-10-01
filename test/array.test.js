@@ -9,14 +9,7 @@ describe('this should remove any word with letters Y or y', () => {
         list = new List(['yellow, Yell, apple, green, mighty']);
     });
 
-    it('this should return a new list array without words including y', () => {
-        const filterResults = list.map(item => {
-            
-        });
-        assert.deepEqual(filterResults, []);
-    });
-
-    it ('this should filter and return a new array', () => {
+    it ('this should return a new list array without words including y' () => {
         const filterResults = list.filter(item => {
             return list;
         });
