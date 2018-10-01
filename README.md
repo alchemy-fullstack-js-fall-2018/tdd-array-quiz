@@ -53,4 +53,4 @@ Quiz is open book, internet, etc...
     * Blind boilerplate or copying-in chunks of code will **not** be helpful and will likely create more work. Seriously, this is the one of the best ways to fail the quiz as you risk wasting your time trying to getting copious amounts of code (that never worked on this project) to work.
     * **Focus effort on requirements of the lab**. Seriously, read the [Instructions] section _more than once_ paying attention to detail.
 1. Total possible points are 40. You will be graded out of 30 points
-1. Demonstrate what you can accomplish by having **passing travis ci** and showing working code.
+1. Demonstrate what you can accomplish by having **passing travis ci** and showing working code!
