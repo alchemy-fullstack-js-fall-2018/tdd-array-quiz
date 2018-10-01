@@ -10,9 +10,17 @@ describe('this should remove any word with letters Y or y', () => {
     });
 
     it('this should return a new list array without words including y', () => {
-        const mapResults = list.map(item => {
+        const filterResults = list.map(item => {
             
         });
-        assert.deepEqual(mapResults, []);
+        assert.deepEqual(filterResults, []);
     });
+
+    it ('this should filter and return a new array', () => {
+        const filterResults = list.filter(item => {
+            return item.;
+        });
+        assert.deepEqual(filterResults, ['apple, green']);
+    });
+
 });
