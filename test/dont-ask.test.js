@@ -10,6 +10,7 @@ describe('replacer', () => {
         replacer.remove(arr, (err, newArr) => {
             if(err) return done(err);
             assert.deepEqual(arr, newArr);
+            done();
         });
     });
 });
