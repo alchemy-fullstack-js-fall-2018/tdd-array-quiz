@@ -1,5 +1,5 @@
 const assert = require('assert');
-const why= require('../lib/why');
+const why = require('../lib/why');
 
 it('returns values in example', () => {
     const input = ['sky', 'hot', 'Yeti', 'green'];
