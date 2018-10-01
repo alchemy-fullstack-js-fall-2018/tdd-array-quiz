@@ -18,7 +18,7 @@ describe('this should remove any word with letters Y or y', () => {
 
     it ('this should filter and return a new array', () => {
         const filterResults = list.filter(item => {
-            return item.;
+            return list;
         });
         assert.deepEqual(filterResults, ['apple, green']);
     });
