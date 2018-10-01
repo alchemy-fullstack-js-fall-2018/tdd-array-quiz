@@ -5,7 +5,7 @@
 ## Instructions: "Don't Ask Why"
 
 Write a **tested** (jest unit tested) library function (a single `function` exported from a module/file)
-that takes an array of words (strings, you can assume valid input) and returns a new array that:
+that takes an array of words (strings, _you can assume valid input_) and returns a new array that:
 
 * Has removed any words than contain the letter `Y` or `y`. (HINT: See [`includes`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes))
 * Has modified the original word to be a phrase of the format: "Is it &lt;word&gt;?"
@@ -50,7 +50,7 @@ Quiz is open book, internet, etc...
 1. You may use normal resources that a software developer uses on the job (docs, google, your prior work)
 1. Use general best practices and common sense:
     * **Highly** recommended to implement what is needed, no more no less
-    * Blind boilerplate or copying-in chunks of code will **not** be helpful and will likely create more work. Seriously, this is the one of the best ways to fail the quiz as you risk wasting your time trying to getting code (that never worked on this project) to work.
+    * Blind boilerplate or copying-in chunks of code will **not** be helpful and will likely create more work. Seriously, this is the one of the best ways to fail the quiz as you risk wasting your time trying to getting copious amounts of code (that never worked on this project) to work.
     * **Focus effort on requirements of the lab**. Seriously, read the [Instructions] section _more than once_ paying attention to detail.
 1. Total possible points are 40. You will be graded out of 30 points
 1. Demonstrate what you can accomplish by having **passing travis ci** and showing working code.
