@@ -8,7 +8,7 @@ describe('why tests', () => {
 
         const attempt = why(['dog', 'doggy', 'Yes', 'No']);
         const expected = ['dog', 'No'];
-        assert.equal(attempt, expected);
+        assert.deepEqual(attempt, expected);
     });
 
     
